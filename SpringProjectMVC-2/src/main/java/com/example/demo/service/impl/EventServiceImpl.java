@@ -3,6 +3,7 @@ package com.example.demo.service.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.demo.Model.Event;
 import com.example.demo.Model.User;
@@ -10,7 +11,7 @@ import com.example.demo.repository.EventRepository;
 import com.example.demo.service.EventService;
 import com.example.demo.service.UserService;
 
-
+@Service
 public class EventServiceImpl implements EventService {
 	@Autowired
 	private UserService userService;

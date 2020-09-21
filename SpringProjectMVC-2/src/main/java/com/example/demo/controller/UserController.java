@@ -20,8 +20,8 @@ public class UserController {
     @Autowired
     private UserService userService;
     
-  // @Autowired
- //   private EventService eventService;
+  @Autowired
+  private EventService eventService;
 
     @Autowired
     private SecurityService securityService;

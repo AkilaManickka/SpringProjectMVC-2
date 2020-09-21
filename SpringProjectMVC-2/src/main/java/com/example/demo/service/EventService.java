@@ -6,6 +6,7 @@ import com.example.demo.Model.Event;
 
 
 public interface EventService {
+	
 	Event get(Long id);
 
 	void delete(Long id);
@@ -13,5 +14,6 @@ public interface EventService {
 	void save(Event event, String userName);
 
 	List<Event> findUserEvents(String username);
+
 
 }
